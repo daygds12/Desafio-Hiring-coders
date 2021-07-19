@@ -29,6 +29,7 @@ ul{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .background-section-two{
     background-image: url(../assets/banner2.jpg);
    background-attachment: fixed; 
