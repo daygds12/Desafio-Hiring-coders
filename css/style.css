@@ -16,12 +16,19 @@ html{
 }
 
 .background-section-one{
-   background-image: url(../assets/banner.jpg);
+   background-image: url(../assets/discos.jpg);
    background-attachment: fixed; 
    background-size: cover;
    background-repeat: no-repeat;
 }
 
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .background-section-two{
     background-image: url(../assets/banner2.jpg);
    background-attachment: fixed; 
@@ -55,4 +62,10 @@ footer{
     text-align: center;
     background-color: black;
     color: blanchedalmond;
+}
+
+@media (max-width: 600px) {
+    section, img, body{
+        width: 100%;
+    }
 }
